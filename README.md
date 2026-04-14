@@ -61,7 +61,8 @@ Plataforma educativa colaborativa para la gestión y seguimiento de proyectos ac
 
 | Nombre | LU | Usuario GitHub |
 |--------|-----|----------|
-| Tapia, Gisella Yanina | 5541 | gisela1234 |
+| Bazan, Fabricio Agustín | 5291 | fabri982022 |
+| Carlos, Gisella Yanina | 5541 | gisela1234 |
 | Tapia, Carlos Matias | 64492 | - |
 | Poma, Aldana Sabrina | 6126 | pomasabrina |
 | Marquez, Yamila Soledad | 4629 | - |
