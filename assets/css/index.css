@@ -1,0 +1,11 @@
+/* selectores
+
+/* etiquetas -- clase -- id */
+
+body {
+    background-color: #11b11f;
+    color: crimson;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
