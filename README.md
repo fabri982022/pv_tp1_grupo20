@@ -63,7 +63,7 @@ Plataforma educativa colaborativa para la gestión y seguimiento de proyectos ac
 |--------|-----|----------|
 | Bazan, Fabricio Agustín | 5291 | fabri982022 |
 | Carlos, Gisella Yanina | 5541 | gisela1234 |
-| Tapia, Carlos Matias | 64492 | cmatiastapia |
+| Tapia, Carlos Matias | 6492 | cmatiastapia |
 | Poma, Aldana Sabrina | 6126 | pomasabrina |
 | Marquez, Yamila Soledad | 4629 | - |
 
