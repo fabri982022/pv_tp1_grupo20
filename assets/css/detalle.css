@@ -41,6 +41,7 @@ p{
     font-family:  'Arial Narrow', Arial, sans-serif;
 }
 
+
 .autores ul {
     list-style: none;
     padding:0;
@@ -50,6 +51,8 @@ p{
 }
 /*recursos*/
 .recursos ul{
+  display: flex;
+  gap: 30px;
   list-style: none;
   padding: 0;
 }
@@ -58,13 +61,16 @@ p{
 }
 .recursos a {
     display: block; /*Convierte el link en un “bloque”*/
-    background-color: #d09eaf; /*color de fondo*/
-    padding: 10px;
+    background-color: #e8cee6; /*color de fondo*/
+    padding: 22px 80px;
+    box-shadow: 0 8px 5px rgba(35, 29, 34, 0.2);/*sombreado X Y blur color*/
     border-radius: 8px; /*redondea las esquinas*/
     text-decoration: none; /*Saca el subrayado del link*/
-    color: #59074e; /*color texto*/
+    color: #50054a; /*color texto*/
 }
-
+.recursos a:hover {
+    color: #f12c88;            /* cambia color al pasar el mouse */
+}
 
 /*equipo de proyecto*/
 .miembro {
@@ -72,10 +78,16 @@ p{
     border-radius: 16px;
     padding: 18px;
     width: 230px;/*ancho*/
-    
     background-color: #e1c8c89d;
+text-align: center; /* centra todo */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* efecto tarjeta */
 }
-
+.miembro img{
+     width: 160px;
+     height: 160px;
+     border-radius: 50%; /* la hace redonda */    
+     object-fit: cover;
+}
 
 .miembro p {
     font-size: 14px;
