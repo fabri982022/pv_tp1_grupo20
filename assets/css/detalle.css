@@ -1,0 +1,100 @@
+.menu{
+    background-color: #6f0643;/*FONDO DEL MENU*/
+    padding: 20px;
+    margin-bottom: 25;
+}
+
+.menu ul {
+    list-style: none;          /* saca los puntitos */
+    display: flex;             /* pone en horizontal */
+    justify-content: center;   /* centra el menú */
+    gap: 20px;                 /* espacio entre items */
+    margin: 0;
+    padding: 0;
+}
+.menu a {
+    color: rgb(214, 213, 213);
+    text-decoration: none;     /* saca subrayado a las referencias */
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #f292e9;            /* cambia color al pasar el mouse */
+}
+
+header {
+    background-color: #e8cee6;
+    padding: 20px;/*espacio interno ,separa el contenido de los bordes*/
+    text-align: center;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px; /*espacio debajo*/
+}
+p{
+     font-size: 18px;
+     margin-bottom: 10px; /*espacio debajo*/
+}
+.descripcion_proyecto {
+    margin: 5px 0; /*separa textos*/
+    color: #010a12; 
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+
+.autores ul {
+    list-style: none;
+    padding:0;
+}
+.autores li {
+    margin: 5px 0;
+}
+/*recursos*/
+.recursos ul{
+  list-style: none;
+  padding: 0;
+}
+.recursos li {
+    margin: 10px 0;
+}
+.recursos a {
+    display: block; /*Convierte el link en un “bloque”*/
+    background-color: #d09eaf; /*color de fondo*/
+    padding: 10px;
+    border-radius: 8px; /*redondea las esquinas*/
+    text-decoration: none; /*Saca el subrayado del link*/
+    color: #59074e; /*color texto*/
+}
+
+
+/*equipo de proyecto*/
+.miembro {
+    border: 1px solid #510534;
+    border-radius: 16px;
+    padding: 18px;
+    width: 230px;/*ancho*/
+    
+    background-color: #e1c8c89d;
+}
+
+
+.miembro p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2a2929;
+}
+.equipo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.miembro h3{
+  
+  font-size: 21px;
+  margin-bottom: 10px; /*espacio debajo*/
+  color: #6e175a;
+}
+.miembro h4{
+  font-size: 16px;
+  margin-bottom: 10px; /*espacio debajo*/
+}
