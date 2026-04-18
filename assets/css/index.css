@@ -1,11 +1,157 @@
-/* selectores
 
-/* etiquetas -- clase -- id */
+/* Importacion de google font */
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap');
 
-body {
-    background-color: #11b11f;
-    color: crimson;
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
 }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8fafc; 
+    color: #334155;
+}
+
+/* HEADER Y NAV */
+.navbar {
+    background: 
+        linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 58, 138, 0.8) 100%), /*fondo color azul*/
+        url('../images/index.jpg') no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*efecto profundidad al scrollear */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+.navbar h1 {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 2px solid #e2e8f0;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #1e3a8a;
+    font-weight: 600;
+    transition: all 0.3s ease; 
+}
+
+/* EFECTO HOVER EN EL MENU */
+nav ul li a:hover {
+    background-color: #eff6ff; /*background-color: #f1f5f9;*/
+    color: #2563eb; /*color: #0ea5e9;cian*/
+}
+
+/*CONTENEDOR*/
+main {
+    max-width: 1200px; 
+    margin: 40px auto; 
+    padding: 0 20px;
+}
+
+h2 {
+    color: #1e3a8a;
+    margin: 40px 0 20px;
+    border-left: 6px solid #3b82f6; 
+    padding-left: 15px;
+    font-size: 1.8rem;
+    width: 100%; 
+}
+
+/* ESTADISTICAS: LAS CAJITAS */
+#estadisticas {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 25px;       
+    justify-content: flex-start; 
+}
+
+/* Estilo para cada una de las cajitas */
+#estadisticas article {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    border-top: 5px solid #3b82f6; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+    
+    /* flex: crecer achicarse tamaño base */
+    flex: 1 1 300px;   
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* transición para el efecto mouse */
+}
+
+/* EFECTO CUANDO SEE PASA EL MOUSE SOBRE LA TARJETA */
+#estadisticas article:hover {
+    transform: translateY(-10px); /* la tarjeta sube  */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-top-color: #22c55e; /* cambia a verde al pasar el mouse */
+}
+
+#estadisticas article h3 {
+    margin-bottom: 12px;
+    color: #0f172a;
+    font-size: 1.25rem;
+}
+
+/* NOVEDADES */
+#novedades {
+    margin-top: 50px;
+}
+
+#novedades ul {
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    list-style-type: none; 
+}
+
+#novedades li {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #64748b;
+}
+
+/* FOOTER*/
+footer {
+    text-align: center;
+    padding: 50px;
+    background: #0f172a; 
+    color: #94a3b8;
+    margin-top: 80px;
+}
+
+/*  AJUSTES EXTRAS para celulares */
+@media (max-width: 650px) {
+    nav ul {
+        flex-direction: column; /* menu se hace vertical */
+        text-align: center;
+    }
+    .navbar h1 {
+        font-size: 1.6rem;
+    }
+}
+
+
+
